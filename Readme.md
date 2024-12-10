@@ -67,7 +67,7 @@ Open the index.html file in a web browser or any code editors
 
 Test the interface by typing messages into the chatbox. The frontend sends your message to the Flask server, which processes it via the chatbot logic and returns a response displayed in the chat.
 
-After following these steps, you’ll have a working chatbot where the Python backend handles logic, and the HTML/JS frontend interacts with users
+After following these steps, you’ll have a working chatbot where the Python backend handles logic, and the frontend interacts with users
 
 ## Acknowledgments
 - **Open Weather API** for providing real-time weather data
