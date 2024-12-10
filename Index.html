@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Soft background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333; /* Neutral text color */
+        }
+
+        .container {
+            width: 80%; /* Limit container width */
+            max-width: 600px; /* Ensure it doesn't grow too wide */
+            background-color: #ffffff; /* Clean white card */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #5555aa; /* Subtle blue color */
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            font-size: 1em;
+            color: #777; /* Softer text tone */
+        }
+
+        .content {
+            margin-bottom: 20px;
+            text-align: center; /* Center-align labels and text areas */
+        }
+
+        .content label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .content textarea {
+            width: 100%; /* Take up full container width */
+            max-width: 500px; /* Prevent stretching too wide */
+            height: 100px;
+            border: 1px solid #dcdcdc; /* Light border */
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1em;
+            font-family: "Times New Roman", serif; /* Set text to Times New Roman */
+            background-color: #f9f9f9; /* Slight off-white */
+            color: #555;
+            resize: none;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .content textarea:focus {
+            outline: none;
+            border: 1px solid #5555aa; /* Subtle focus color */
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #aaa; /* Muted footer color */
+            margin-top: 10px;
+        }
+
+        .footer b {
+            color: #5555aa; /* Footer emphasis */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Alexa🤖</h1>
+           
+        </div>
+        <div class="content">
+            <label for="user-input">You👤:</label>
+            <textarea id="user-input" placeholder="Type your message here..."></textarea>
+        </div>
+        <div class="content">
+            <label for="chatbot-response">Alexa🤖:</label>
+            <textarea id="chatbot-response" placeholder="Chatbot's response will appear here...">To make a budget, start by tracking your income and expenses. Then, allocate your income towards essential expenses like rent, food, and bills. Next, allocate some of your income towards savings and debt repayment. Finally, allocate the remainder of your income towards discretionary expenses like entertainment and hobbies.</textarea>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+</body>
+</html>
